@@ -8,4 +8,4 @@ A simple Socket program with GUI (by using swing).<br/>
 <p>or</p>
 <p>For Console Mode ==> Run <b>src\console_menu\Menu.java<p>
 </br>
-<h>LOOK UP AND CHANGE THE ACCOUNT IN THE FILE 'src\data\UserDat.java'!</h>
+<h>LOOK UP AND CHANGE THE ACCOUNT IN THE FILE 'src\data\UserData.java'!</h>
