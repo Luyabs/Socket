@@ -1,6 +1,6 @@
 # Socket
 A simple Socket program with GUI (by using swing).<br/>
-<h>Suggest to <b>open the folder 'Socket'</b> with IDEA</h><br/>
+<h>Suggest to <b>open the folder 'Socket'(TCP) or 'SocketUDP'</b> with IDEA</h><br/>
 
 <h>There're 2 methods to run this</h><br/>
 <br/>
