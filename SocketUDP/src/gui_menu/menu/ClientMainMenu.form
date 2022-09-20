@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui_menu.menu.ClientMainMenu">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="643" height="614"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e3588" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="497b8" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="667f9" layout-manager="GridLayoutManager" row-count="7" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="91061" class="javax.swing.JTextArea" binding="consoleLog">
+                    <constraints>
+                      <grid row="1" column="1" row-span="4" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="400"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <rows value="20"/>
+                      <text value=""/>
+                      <wrapStyleWord value="true"/>
+                    </properties>
+                  </component>
+                  <component id="1490c" class="javax.swing.JButton" binding="RunServerButton">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="30" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="开启客户端"/>
+                    </properties>
+                  </component>
+                  <component id="fda97" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="50" height="10"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="系统日志:"/>
+                    </properties>
+                  </component>
+                  <component id="4fc1d" class="javax.swing.JButton" binding="confirmPortButton">
+                    <constraints>
+                      <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="20" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="更新"/>
+                    </properties>
+                  </component>
+                  <component id="591b5" class="javax.swing.JTextField" binding="portInput">
+                    <constraints>
+                      <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="50" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="6788"/>
+                    </properties>
+                  </component>
+                  <component id="72f9" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="30" height="17"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="指定端口号:"/>
+                    </properties>
+                  </component>
+                  <vspacer id="1da99">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="71b7b" class="javax.swing.JTextField" binding="sendMessageBox">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="3c293" class="javax.swing.JLabel" binding="sendMessage">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="30" height="17"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="编辑信息: "/>
+                    </properties>
+                  </component>
+                  <component id="2d762" class="javax.swing.JButton" binding="sendMessageButton">
+                    <constraints>
+                      <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="20" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="发送"/>
+                    </properties>
+                  </component>
+                  <component id="60f9f" class="javax.swing.JButton" binding="loginCheckButton">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="30" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="身份验证"/>
+                    </properties>
+                  </component>
+                  <component id="50bfc" class="javax.swing.JButton" binding="closeServerButton">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="30" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="关闭客户端"/>
+                    </properties>
+                  </component>
+                  <component id="c2014" class="javax.swing.JButton" binding="confirmDestPortButton">
+                    <constraints>
+                      <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="20" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="更新"/>
+                    </properties>
+                  </component>
+                  <component id="4c317" class="javax.swing.JTextField" binding="destPortInput">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="50" height="30"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="6789"/>
+                    </properties>
+                  </component>
+                  <component id="1b008" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="30" height="17"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="指定输出端口号:"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <hspacer id="302ad">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="3f160">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
